@@ -1,0 +1,33 @@
+/* src/components/Header.css */
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .Nav {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-item {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #555;
+    transition: color 0.3s;
+  }
+  
+  .nav-item:hover,
+  .active {
+    color: #007bff; /* Accent color for active and hovered items */
+  }
+  
